@@ -2,6 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
+*Create a multiple linear regression model that predicts the mpg of MechaCar prototypes using all six variables.*
+
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
   Looking at Pr(>|t|) in Figure 1, all values greater then 0.05 show a non-   random amount of variance: vehicle weight, spoiler angle, and AWD. 
@@ -19,6 +21,8 @@ Figure 1. MPG Linear Regression Summary
 
 ## Summary Statistics on Suspension Coils
 
+*Create two summary tables to visualize the mean, median, variance, and standard deviation for (1) all manufacturing lots as a whole and (2) for each lot individually.* 
+
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
   Looking at Figure 2, the variance is about 62 PSI, indicating that all    manufacturing lots combined do meet the design specifications. When looking at each lot individually (Figure 3), lot 3 is the only lot that does not meet the design specifications with having a variance value 170 PSI, which exceeds 100 pounds per square inch.  
@@ -28,8 +32,19 @@ Figure 2. Total Summary Table
 
 Figure 3. Lot Summary Table
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_D2.PNG)
+
 ## T-Tests on Suspension Coils
+*Determine if all manufacturing lots and each individuale lot are statistically different from the population mean of 1,500 pounds per square inch.*
+
+Figure 4. T-Test for all manufacturing lots
+
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/t_test_all_D3.PNG)
+
+Figure 5. T-Test for Lot 1
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/t_test_Lot1_D3.PNG)
+
+Figure 6. T-Test for Lot 2
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/t_test_Lot2_D3.PNG)
+
+Figure 7. T-Test for Lot 3
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/t_test_Lot3_D3.PNG)
