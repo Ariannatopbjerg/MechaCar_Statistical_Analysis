@@ -39,7 +39,7 @@ Figure 3. Lot Summary Table
 ## T-Tests on Suspension Coils
 *Determine if all manufacturing lots and each individuale lot are statistically different from the population mean of 1,500 pounds per square inch.*
 
-Analyzing figures 4-7, the p-values for each t-test is greater than the significance level of 0.05. With this analysis, I would fail to reject that there is a statistical difference between the four groups and the population mean. 
+Analyzing Figures 4-7, the p-values for each t-test is greater than the significance level of 0.05. With this analysis, I would fail to reject that there is a statistical difference between the four groups and the population mean. 
 
 Figure 4. T-Test for all manufacturing lots
 
