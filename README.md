@@ -28,13 +28,17 @@ Figure 1. MPG Linear Regression Summary
   Looking at Figure 2, the variance is about 62 PSI, indicating that all    manufacturing lots combined do meet the design specifications. When looking at each lot individually (Figure 3), lot 3 is the only lot that does not meet the design specifications with having a variance value 170 PSI, which exceeds 100 pounds per square inch.  
 
 Figure 2. Total Summary Table
+
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/total_summary_D2.PNG)
 
 Figure 3. Lot Summary Table
+
 ![](https://github.com/Ariannatopbjerg/MechaCar_Statistical_Analysis/blob/main/images/lot_summary_D2.PNG)
 
 ## T-Tests on Suspension Coils
 *Determine if all manufacturing lots and each individuale lot are statistically different from the population mean of 1,500 pounds per square inch.*
+
+Analyzing figures 4-7, the p-values for each t-test is greater than the significance level of 0.05. With this analysis, I would fail to reject that there is a statistical difference between the four groups and the population mean. 
 
 Figure 4. T-Test for all manufacturing lots
 
